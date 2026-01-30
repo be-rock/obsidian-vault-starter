@@ -15,8 +15,20 @@
   "enable_folder_templates": true,
   "folder_templates": [
     {
-      "folder": "",
-      "template": ""
+      "folder": "Meetings",
+      "template": "meeting"
+    },
+    {
+      "folder": "People",
+      "template": "person"
+    },
+    {
+      "folder": "Projects",
+      "template": "project"
+    },
+    {
+      "folder": "task",
+      "template": "Tasks"
     }
   ],
   "enable_file_templates": false,
