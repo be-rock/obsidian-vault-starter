@@ -1,0 +1,241 @@
+{
+  "main": {
+    "id": "1ca538d570cb52e3",
+    "type": "split",
+    "children": [
+      {
+        "id": "a73dca3674dc3e43",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "07d688b8f89d6a11",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "bases",
+              "state": {
+                "file": "_bases/Projects.base",
+                "viewName": "All"
+              },
+              "pinned": true,
+              "icon": "lucide-table",
+              "title": "Projects"
+            }
+          },
+          {
+            "id": "5b6ad752dcaa0e34",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "bases",
+              "state": {
+                "file": "_bases/Companies.base",
+                "viewName": "All Companies"
+              },
+              "pinned": true,
+              "icon": "lucide-table",
+              "title": "Companies"
+            }
+          },
+          {
+            "id": "932f8739a6993e41",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "bases",
+              "state": {
+                "file": "_bases/CRM.base",
+                "viewName": "Table"
+              },
+              "pinned": true,
+              "icon": "lucide-table",
+              "title": "CRM"
+            }
+          },
+          {
+            "id": "89fbb4bb1dd80ae0",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "bases",
+              "state": {
+                "file": "_bases/Meetings.base",
+                "viewName": "All Meetings"
+              },
+              "pinned": true,
+              "icon": "lucide-table",
+              "title": "Meetings"
+            }
+          }
+        ],
+        "currentTab": 0
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "7c100316f69c67df",
+    "type": "split",
+    "children": [
+      {
+        "id": "b75d04d1468ebd35",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "565cd5d963590092",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "6ac60753b07212ca",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "1fb21cb9ad851ce7",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          },
+          {
+            "id": "49f33a4a77e50970",
+            "type": "leaf",
+            "state": {
+              "type": "notebook-navigator",
+              "state": {},
+              "icon": "notebook-navigator",
+              "title": "Notebook Navigator"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "d99d68d12316c00e",
+    "type": "split",
+    "children": [
+      {
+        "id": "229178effcb6ffcd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a3f1105331704b21",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "_bases/Companies.base",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Companies"
+            }
+          },
+          {
+            "id": "5dc5ec6c4eeed618",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "91409f5ce6679659",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "1d46726751d173c7",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "_bases/Companies.base",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Companies"
+            }
+          },
+          {
+            "id": "145fe2f026c1ad71",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "zk-prefixer:Create new unique note": false,
+      "workspaces:Manage workspace layouts": false,
+      "notebook-navigator:Notebook Navigator": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "periodic-notes:Open today": false
+    }
+  },
+  "active": "07d688b8f89d6a11",
+  "lastOpenFiles": []
+}

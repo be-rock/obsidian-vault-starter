@@ -1,0 +1,52 @@
+filters:
+  and:
+    - file.tags.contains("person")
+    - file.name != "person"
+views:
+  - type: table
+    name: Table
+    order:
+      - file.name
+      - company
+      - title
+      - tags
+      - last_contact
+      - follow_up_needed
+      - next_follow_up
+      - email
+      - phone
+      - location
+      - linkedin
+      - relationship_strength
+      - industry
+      - how_we_met
+    sort:
+      - property: next_follow_up
+        direction: ASC
+      - property: follow_up_needed
+        direction: DESC
+  - type: table
+    name: Follow Up This Week
+    filters:
+      and:
+        - next_follow_up <= (now() +"1w")
+    order:
+      - file.name
+      - company
+      - title
+      - tags
+      - last_contact
+      - follow_up_needed
+      - next_follow_up
+      - email
+      - phone
+      - location
+      - linkedin
+      - relationship_strength
+      - industry
+      - how_we_met
+    sort:
+      - property: next_follow_up
+        direction: ASC
+      - property: follow_up_needed
+        direction: DESC

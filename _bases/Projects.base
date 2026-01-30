@@ -1,0 +1,65 @@
+filters:
+  and:
+    - file.tags.containsAny("project", "task")
+    - file.name != "project"
+    - status != "Done"
+    - file.name != "task"
+views:
+  - type: table
+    name: All
+    order:
+      - file.name
+      - status
+      - priority
+      - due
+      - description
+      - Topics
+      - tags
+    sort:
+      - property: status
+        direction: DESC
+      - property: tags
+        direction: ASC
+      - property: due
+        direction: ASC
+      - property: priority
+        direction: ASC
+    columnSize:
+      file.name: 348
+      note.description: 161
+      note.Topics: 281
+      note.tags: 131
+  - type: table
+    name: All Tasks
+    filters:
+      and:
+        - file.tags.contains("task")
+    order:
+      - file.name
+      - status
+      - priority
+      - due
+      - tags
+      - description
+      - Topics
+    sort:
+      - property: tags
+        direction: ASC
+  - type: table
+    name: Due This Week
+    filters:
+      and:
+        - due <= (now() + "1w")
+    order:
+      - file.name
+      - status
+      - priority
+      - due
+      - tags
+      - description
+      - Topics
+    sort:
+      - property: file.name
+        direction: ASC
+      - property: tags
+        direction: ASC

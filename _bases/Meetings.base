@@ -1,0 +1,35 @@
+filters:
+    and:
+        - file.tags.contains("meeting")
+        - file.name != "meeting"
+views:
+    - type: table
+      name: All Meetings
+      order:
+        - file.name
+        - tags
+        - date
+        - People
+        - Topics
+      sort:
+        - property: date
+          direction: DESC
+        - property: tags
+          direction: ASC
+    - type: table
+      name: This Week
+      filters:
+        and:
+            - date<=(now()+"1w")
+            - date>=(now()-"1w")
+      order:
+        - file.name
+        - tags
+        - date
+        - People
+        - Topics
+      sort:
+        - property: date
+          direction: DESC
+        - property: Topics
+          direction: ASC
