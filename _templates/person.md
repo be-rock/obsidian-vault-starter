@@ -17,10 +17,14 @@ tags:
 
 # person
 
-### Conversation History
-- 
+## Conversation History
+
+-
+
 ### Personal Notes
-- 
+
+-
 
 ### Business Context
-- 
+
+-

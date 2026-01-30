@@ -1,5 +1,5 @@
 ---
-date:
+date: {{date:YYYY-MM-DD}}
 Topics:
 People:
 status:

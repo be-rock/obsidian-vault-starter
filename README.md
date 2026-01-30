@@ -29,9 +29,8 @@ Copy the repo contents into your existing vault root and overwrite when prompted
 
 ```
 _bases/
+_daily/
 _templates/
-Calendar Notes/Daily/
-Companies/
 Meetings/
 Notes/
 People/
@@ -39,7 +38,7 @@ Projects/
 Tasks/
 Topics/
 .obsidian/
-.cursor/
+.claude/
 ```
 
 ## Templates (and why)
@@ -50,6 +49,7 @@ Topics/
 - `meeting.md`, `person.md`, `company.md` keep CRM-style notes consistent.
 
 **Hotkeys**
+
 - `Cmd + D` creates or opens the daily note.
 - `Cmd + Shift + N` creates a timestamped unique note via ZK Prefixer.
 
@@ -57,8 +57,7 @@ Topics/
 
 - `Projects.base` is the master list for projects + tasks, plus “Due This Week.”
 - `Meetings.base` keeps meeting notes visible by recency.
-- `Companies.base` filters companies by type tag (customer, partner, vendor, etc.).
-- `CRM.base` tracks people and follow-ups.
+- `People.base` tracks people and follow-ups.
 
 These Bases are embedded in `daily.md` so your daily note becomes your dashboard.
 
@@ -70,7 +69,6 @@ This vault standardizes on tags:
 - `task` for tasks
 - `meeting` for meetings
 - `person` for people
-- `company` plus nested tags like `company/partner`, `company/vendor`
 - `note` for unique notes captured
 - `topic` for longer lived domain topics
 
@@ -79,11 +77,13 @@ This keeps filtering simple and consistent.
 ## Commands and workflows
 
 ### Daily workflow
+
 1. Hit `Cmd + D` to open today’s daily note.
 2. Review the embedded Bases (tasks, meetings, people follow-ups).
 3. Capture quick context, then create a meeting or unique note for the real content.
 
 ### Task workflow: turn todos into tasks
+
 Use the custom command `/sync-todos`:
 
 1. Search for unchecked todos (`- [ ]`) across the vault.

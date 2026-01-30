@@ -8,12 +8,16 @@ tags: [daily]
 # daily
 
 ## ✅ Tasks
+
 ![[Projects.base]]
 
 ## 📆 Meetings
+
 ![[Meetings.base]]
 
 ## 🧍People
+
 ![[CRM.base]]
 
 ## Notes
+
