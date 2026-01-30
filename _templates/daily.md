@@ -17,7 +17,7 @@ tags: [daily]
 
 ## 🧍People
 
-![[CRM.base]]
+![[People.base]]
 
 ## Notes
 
