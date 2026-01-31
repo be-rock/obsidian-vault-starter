@@ -55,20 +55,19 @@
           {
             "id": "89fbb4bb1dd80ae0",
             "type": "leaf",
-            "pinned": true,
             "state": {
-              "type": "bases",
+              "type": "markdown",
               "state": {
-                "file": "_bases/Meetings.base",
-                "viewName": "All Meetings"
+                "file": "_daily/2026-01-29.md",
+                "mode": "source",
+                "source": false
               },
-              "pinned": true,
-              "icon": "lucide-table",
-              "title": "Meetings"
+              "icon": "lucide-file",
+              "title": "2026-01-29"
             }
           }
         ],
-        "currentTab": 0
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -127,8 +126,8 @@
             "state": {
               "type": "notebook-navigator",
               "state": {},
-              "icon": "notebook-navigator",
-              "title": "Notebook Navigator"
+              "icon": "lucide-ghost",
+              "title": "notebook-navigator"
             }
           }
         ]
@@ -151,12 +150,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_bases/Companies.base",
+                "file": "_daily/2026-01-29.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Companies"
+              "title": "Outgoing links from 2026-01-29"
             }
           },
           {
@@ -212,6 +211,25 @@
               "icon": "calendar-with-checkmark",
               "title": "Calendar"
             }
+          },
+          {
+            "id": "3b136c171ba9e49a",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "_templates/myperson.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for myperson"
+            }
           }
         ]
       }
@@ -230,12 +248,23 @@
       "bases:Create new base": false,
       "zk-prefixer:Create new unique note": false,
       "workspaces:Manage workspace layouts": false,
-      "notebook-navigator:Notebook Navigator": false,
       "templater-obsidian:Templater": false,
-      "obsidian-excalidraw-plugin:New drawing": false,
-      "periodic-notes:Open today": false
+      "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "07d688b8f89d6a11",
-  "lastOpenFiles": []
+  "active": "89fbb4bb1dd80ae0",
+  "lastOpenFiles": [
+    "_templates/daily.md",
+    "_templates/myperson.md",
+    "_daily/2026-01-29.md",
+    "_bases/Meetings.base",
+    "_templates/meeting.md",
+    "_templates/person.md",
+    "_templates/project.md",
+    "_templates/task.md",
+    "_templates/unique-note.md",
+    "Notes/202601292249.md",
+    "_bases/People.base",
+    "_bases/Projects.base"
+  ]
 }

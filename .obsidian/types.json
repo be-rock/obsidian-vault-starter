@@ -1,13 +1,14 @@
 {
   "types": {
     "aliases": "aliases",
+    "created": "date",
     "cssclasses": "multitext",
+    "meeting_date": "date",
     "tags": "tags",
-    "Due": "date",
-    "date": "date",
-    "Topics": "multitext",
+    "due": "date",
     "next_follow_up": "date",
     "last_contact": "date",
-    "People": "multitext"
+    "People": "multitext",
+    "Topics": "multitext"
   }
 }

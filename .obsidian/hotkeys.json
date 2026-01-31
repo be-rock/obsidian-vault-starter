@@ -1,21 +1,39 @@
 {
-  "editor:delete-paragraph": [],
-  "zk-prefixer": [
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "N"
-    }
-  ],
-  "file-explorer:new-file-in-new-pane": [],
-  "daily-notes": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "D"
-    }
-  ]
+    "editor:delete-paragraph": [],
+    "zk-prefixer": [
+        {
+            "modifiers": [
+                "Mod",
+                "Shift"
+            ],
+            "key": "N"
+        }
+    ],
+    "file-explorer:new-file-in-new-pane": [],
+    "daily-notes": [
+        {
+            "modifiers": [
+                "Mod"
+            ],
+            "key": "D"
+        }
+    ],
+    "templater-obsidian:create-_templates/meeting.md": [
+        {
+            "modifiers": [
+                "Ctrl",
+                "Shift"
+            ],
+            "key": "M"
+        }
+    ],
+    "templater-obsidian:create-_templates/task.md": [
+        {
+            "modifiers": [
+                "Ctrl",
+                "Shift"
+            ],
+            "key": "T"
+        }
+    ]
 }
