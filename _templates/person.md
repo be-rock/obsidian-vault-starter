@@ -1,4 +1,5 @@
 ---
+created: <% tp.date.now("YYYY-MM-DD") %>
 company:
 title:
 email:
@@ -28,3 +29,8 @@ tags:
 ### Business Context
 
 -
+
+<%*
+// move current file into folder, keep same title
+await tp.file.move("/People/" + tp.file.title)
+%>

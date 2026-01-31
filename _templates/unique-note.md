@@ -4,5 +4,4 @@ source: "[[{{date:YYYY-MM-DD}}]]"
 tags:
   - note
 ---
-
-# {{title}}
+# unique-note

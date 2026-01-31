@@ -1,10 +1,9 @@
 ---
-date: {{date:YYYY-MM-DD}}
-day: {{date:dddd}}
-week: {{date:YYYY-[W]WW}}
-tags: [daily]
+created: {{date:YYYY-MM-DD}}
+created_week: {{date:gggg-[W]ww}}
+tags:
+  - daily
 ---
-
 # daily
 
 ## ✅ Tasks
@@ -15,9 +14,10 @@ tags: [daily]
 
 ![[Meetings.base]]
 
-## 🧍People
+## 🧍 People
 
 ![[People.base]]
 
 ## Notes
+
 

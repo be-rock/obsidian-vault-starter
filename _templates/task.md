@@ -1,9 +1,11 @@
 ---
+created: <% tp.date.now("YYYY-MM-DD") %>
 status:
 priority:
 due:
-tags:
-  - task
 description:
 Topics:
+tags:
+  - task
 ---
+# task
