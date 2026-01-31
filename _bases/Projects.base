@@ -8,6 +8,7 @@ views:
   - type: table
     name: All
     order:
+      - created
       - file.name
       - status
       - priority
